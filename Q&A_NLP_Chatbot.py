@@ -52,8 +52,8 @@ def initialize_rag_system():
     # NOTE: Update 'bert-base-uncased' to your local/huggingface checkpoint path if needed.
     qa_pipeline = pipeline(
         "question-answering",
-        model="bert-base-uncased",
-        tokenizer="bert-base-uncased"
+        model="deepset/bert-base-cased-squad2",
+        tokenizer="deepset/bert-base-cased-squad2"
     )
     return embedding_model, qa_pipeline
 
