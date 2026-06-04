@@ -2,6 +2,6 @@ streamlit>=1.35.0
 torch
 transformers
 sentence-transformers
-faiss-cpu==1.7.2
+faiss-cpu==1.14.2
 pandas
 numpy<2
