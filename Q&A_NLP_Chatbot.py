@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import faiss
+from sklearn.metrics.pairwise import cosine_similarity
 import os
 import torch
 from sentence_transformers import SentenceTransformer
