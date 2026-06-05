@@ -1,7 +1,10 @@
-streamlit>=1.35.0
-torch
-transformers==4.40.0
-sentence-transformers
-faiss-cpu==1.14.2
-pandas
+streamlit==1.35.0
 numpy<2
+pandas==2.2.2
+
+torch==2.2.2
+transformers==4.41.2
+tokenizers==0.19.1
+sentence-transformers==2.7.0
+
+faiss-cpu
