@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 import os
+import faiss
 import torch
 from sentence_transformers import SentenceTransformer
 from transformers import pipeline
