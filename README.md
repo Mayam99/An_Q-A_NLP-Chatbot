@@ -1,4 +1,4 @@
-# 🤖 An Q&A NLP Chatbot
+# 🤖 Q&A NLP Chatbot
 
 A sophisticated **Retrieval-Augmented Generation (RAG)** based Question-Answering chatbot that leverages vector similarity search and fine-tuned BERT models to provide accurate, context-aware answers from your document repository.
 
